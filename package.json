@@ -1,0 +1,19 @@
+{
+  "name": "priemkabot",
+  "version": "1.0.0",
+  "description": "TG bot, made by Andrey Ivlev",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "author": "Andrey Ivlev",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "node-telegram-bot-api": "^0.56.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
