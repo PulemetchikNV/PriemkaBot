@@ -12,6 +12,8 @@ module.exports = {
         }
         return id
     },
-    
+    isNumeric(num){
+        return !isNaN(num)
+    }
     
 }
